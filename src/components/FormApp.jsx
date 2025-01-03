@@ -7,28 +7,28 @@ export const FormApp = () =>{
                     <div className="flex flex-col gap-y-[10px] ">
                         <span>Nombre</span>
                         <input type="text" name="name" id="name" 
-                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-400"/>
+                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-300"/>
                     </div>
                     <div className="flex flex-col gap-y-[10px]">
                         <span>Email</span>
                         <input type="text" name="dni" id="dni" 
-                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-400"/>
+                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-300"/>
                     </div>
                     <div className="flex flex-col gap-y-[10px]">
                         <span>Seleccionar fecha</span>
                         <select name="fecha" id="fecha" 
-                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-400">
+                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-300">
                             <option value="val1">20/01/2025</option>
                         </select>
                     </div>
                     <div className="flex flex-col gap-y-[10px]">
                         <span>Seleccionar horario</span>
                         <select name="fecha" id="fecha" 
-                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-400">
+                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-300">
                             <option value="val1">10:00</option>
                         </select>
                     </div>
-
+                    <a href="#" className="bg-green-500 w-1/3 text-center rounded-[10px] text-[18px] py-[5px] my-[10px]" >Reservar</a>
                 </div>
             </form>
         </div>
