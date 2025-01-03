@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{jsx, js, ts, tsx}", 
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "gotic":"gotic-font"
+      }
+    },
   },
   plugins: [],
 }

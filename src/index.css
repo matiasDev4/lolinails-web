@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "gotic-font";
+    src: url("./assets/fonts/CloisterBlack.ttf");
+}
