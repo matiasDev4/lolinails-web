@@ -1,9 +1,11 @@
 export const FormApp = () =>{
     return (
         <>
-        <div className="bg-black my-5 h-auto py-[25px] px-[50px] rounded-lg text-white">
+        <div className="bg-black my-5 h-auto py-[25px] px-[50px] rounded-lg text-white
+        xl:w-[35%] mx-auto">
             <form action="">
-                <div className="flex flex-col w-full gap-y-5 [&>div>input]:rounded-[6px]">
+                <div className="flex flex-col w-full gap-y-5 [&>div>input]:rounded-[6px]
+                ">
                     <div className="flex flex-col gap-y-[10px] ">
                         <span>Nombre</span>
                         <input type="text" name="name" id="name" 
