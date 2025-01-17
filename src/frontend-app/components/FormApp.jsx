@@ -1,3 +1,5 @@
+import Datepicker from "react-tailwindcss-datepicker";
+
 export const FormApp = () =>{
     return (
         <>
@@ -18,10 +20,6 @@ export const FormApp = () =>{
                     </div>
                     <div className="flex flex-col gap-y-[10px]">
                         <span>Seleccionar fecha</span>
-                        <select name="fecha" id="fecha" 
-                        className="py-[8px] text-black px-[10px] outline-purple-800 bg-gray-300">
-                            <option value="val1">20/01/2025</option>
-                        </select>
                     </div>
                     <div className="flex flex-col gap-y-[10px]">
                         <span>Seleccionar horario</span>
