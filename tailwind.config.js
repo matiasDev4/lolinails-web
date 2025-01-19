@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        "sm": "320px"
+      },
       fontFamily:{
         "gotic":"gotic-font"
       },
