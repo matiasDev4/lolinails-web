@@ -7,10 +7,11 @@ export const Admin = () =>{
                 <div>
                     <Sidebar />
                 </div>
-                <div>
+                <div className="h-auto">
                     <Routes>
                         <Route index path="cursos" element={<Courses_panel />}/>
                     </Routes>
                 </div>
+
             </div>
 }

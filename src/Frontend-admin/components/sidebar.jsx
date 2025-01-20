@@ -15,14 +15,14 @@ export const Sidebar = () =>{
 
     return (
         <>
-            <header className="bg-black w-full lg:w-[8vh] text-white h-[8vh] flex flex-row items-center 
+            <header className="bg-black w-full lg:w-[8vh] text-white min-h-[10vh] flex flex-row items-center 
             justify-between px-[20px] shadow-[0px_0px_20px_black] sticky">
                 <div className="flex flex-row items-center gap-x-5 lg:hidden ">
                     <img src="/src/assets/images/logo.png" alt="png" 
                      className="w-[50px] rounded-[50%]"/>
                      <span>Usuario default</span>
                 </div>
-                <nav className={`absolute top-0 z-1 bg-black h-screen max-w-[25vh] flex flex-col justify-between py-[20px] transition-all duration-300 ${!open ? "left-[-100%] lg:max-w-[8vh]" : "left-0 lg:max-w-[30vh]"}
+                <nav className={`absolute top-0 z-1 bg-black min-h-screen max-w-[25vh] flex flex-col justify-between py-[20px] transition-all duration-300 ${!open ? "left-[-100%] lg:max-w-[11vh]" : "left-0 lg:max-w-[30vh]"}
                 lg:left-0 shadow-[0px_0px_20px_black]`}>
                     <div className="sm:hidden lg:flex flex-row items-center gap-x-2 mx-[20px] w-full">
                         <img src="/src/assets/images/logo.png" alt="png" 
