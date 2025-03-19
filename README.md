@@ -11,7 +11,7 @@ Lolinail es una plataforma de venta de cursos online. Este proyecto me permitió
 ## Estado actual
 - Panel de administración: ✔️
 - Carrito de compras: 🛠️ En proceso
-- API REST: ✔️
+- API REST: ✔️ [repositorio](https://github.com/matiasDev4/api_turnos)
 - Pasarela de pagos: 🛠️ En proceso
 
 ## Qué aprendí
@@ -22,3 +22,5 @@ Lolinail es una plataforma de venta de cursos online. Este proyecto me permitió
 ## Qué sigue
 - Integración con pasarela de pagos.
 - Despliegue en hosting definitivo.
+
+
