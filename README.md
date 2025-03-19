@@ -1,3 +1,24 @@
-# Lolinail - Cursos online
+# Lolinail - Cursos Online
+Proyecto en desarrollo. Actualmente offline por temas de hosting.
 
-Este poryecto esta actualmente fuera de produccion, me encuentro puliendo y agregando nuevas funcionalidades!
+## Descripción
+Lolinail es una plataforma de venta de cursos online. Este proyecto me permitió desarrollar, una API propia con FastAPI y un panel administrativo con el CRUD de los cursos. Estoy trabajando en la implementación de la pasarela de pagos (con checkout pro de mercadopago), carrito de compras y mejoras de seguridad.
+
+## Tecnologías
+- Frontend: ReactJS, TailwindCSS
+- Backend: FastAPI, Python
+
+## Estado actual
+- Panel de administración: ✔️
+- Carrito de compras: 🛠️ En proceso
+- API REST: ✔️
+- Pasarela de pagos: 🛠️ En proceso
+
+## Qué aprendí
+- Manejo completo de un e-commerce.
+- Desarrollo y consumo de APIs.
+- Autenticación de usuarios y manejo de estado.
+
+## Qué sigue
+- Integración con pasarela de pagos.
+- Despliegue en hosting definitivo.
