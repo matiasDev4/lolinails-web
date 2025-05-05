@@ -1,5 +1,7 @@
 # Lolinail - Cursos Online
-Proyecto en desarrollo. Actualmente offline por temas de hosting.
+> [!IMPORTANT]
+> Actualmenete me encuentro refactorizando todo el proyecto con TypeScript, para mejorar la legibilidad del codigo y reducir errores.
+
 
 ## Descripción
 Lolinail es una plataforma de venta de cursos online. Este proyecto me permitió desarrollar una API propia con FastAPI y un panel administrativo con el CRUD de los cursos. Estoy trabajando en la implementación de la pasarela de pagos (con checkout pro de mercadopago), carrito de compras y mejoras de seguridad.
